@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>メンズアイドル新メンバー募集</title>
+  <style>
+    body {
+      font-family: 'Helvetica', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #ff3366;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background-color: #ff3366;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .social-icons img {
+      width: 32px;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>メンズアイドル 新メンバーオーディション</h1>
+    <p>新たな伝説のはじまり。次はキミの番。</p>
+  </header>
+
+  <section>
+    <h2>📢 募集要項</h2>
+    <ul>
+      <li>年齢：16歳〜25歳</li>
+      <li>経験：未経験OK（ダンス・歌経験者優遇）</li>
+      <li>居住地：関東近郊（地方でも応相談）</li>
+      <li>活動内容：ライブ・SNS・配信・メディア出演 等</li>
+    </ul>
+    <a class="button" href="#form">応募はこちら</a>
+  </section>
+
+  <section>
+    <h2>🌟 グループ紹介</h2>
+    <p>現在3名で活動中の新世代メンズアイドルグループ「NEO WAVE」。</p>
+    <p>都内ライブハウスを中心に、TikTokやYouTubeでも発信中！</p>
+    <p>次の主役はあなたです。</p>
+  </section>
+
+  <section id="form">
+    <h2>📝 応募フォーム</h2>
+    <form action="https://example.com/form-submit" method="post">
+      <label>お名前</label>
+      <input type="text" name="name" required />
+      
+      <label>年齢</label>
+      <input type="number" name="age" required />
+      
+      <label>居住地</label>
+      <input type="text" name="location" required />
+      
+      <label>自己PR・志望動機</label>
+      <textarea name="message" rows="5" required></textarea>
+      
+      <label>写真URLまたはSNSリンク（任意）</label>
+      <input type="text" name="photo" />
+      
+      <button type="submit">応募する</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>📱 SNSで最新情報をチェック！</p>
+    <div class="social-icons">
+      <a href="https://instagram.com/yourgroup" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" /></a>
+      <a href="https://twitter.com/yourgroup" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" /></a>
+      <a href="https://youtube.com/yourgroup" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" /></a>
+    </div>
+    <p>&copy; 2025 NEO WAVE. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
